@@ -1,0 +1,39 @@
+/* ── File Hotkeys: date-format sub-setting ──────────────────────────────── */
+
+.fh-sub-setting {
+  padding-left: 1.5rem;
+  border-left: 2px solid var(--background-modifier-border);
+  margin-left: 1rem;
+  margin-top: -8px; /* pull it closer to the row above */
+}
+
+/* ── File Hotkeys: autocomplete dropdown ────────────────────────────────── */
+
+.fh-suggest {
+  position: absolute;
+  z-index: var(--layer-popover);
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  background: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--radius-m);
+  box-shadow: var(--shadow-l);
+  overflow: hidden;
+  max-height: 240px;
+  overflow-y: auto;
+}
+
+.fh-suggest__item {
+  padding: 6px 10px;
+  cursor: pointer;
+  font-size: var(--font-ui-small);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.fh-suggest__item:hover,
+.fh-suggest__item.is-selected {
+  background: var(--background-modifier-hover);
+}

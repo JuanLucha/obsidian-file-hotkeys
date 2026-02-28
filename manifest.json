@@ -1,0 +1,10 @@
+{
+  "id": "file-hotkeys",
+  "name": "File Hotkeys",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "Assign keyboard shortcuts to open specific files in your vault.",
+  "author": "Your Name",
+  "authorUrl": "https://github.com/your-username",
+  "isDesktopOnly": false
+}
