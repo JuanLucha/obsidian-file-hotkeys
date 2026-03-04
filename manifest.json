@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "minAppVersion": "1.4.0",
   "description": "Assign keyboard shortcuts to open specific files in your vault.",
-  "author": "Your Name",
-  "authorUrl": "https://github.com/your-username",
+  "author": "Juan Lucha",
+  "authorUrl": "https://github.com/juanlucha",
   "isDesktopOnly": false
 }
